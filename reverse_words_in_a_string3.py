@@ -19,7 +19,7 @@ class Solution(object):
         while r < len(s):
             while r < len(s) and s[r] != ' ':
                 r += 1
-            s = s[:l] + s[l:r][::-1] + s[r:]
+            s = s[:l] + s[l:r][::-1] + s[r:]    # 해당하는 단어는 reverse 앞과 뒤는 ++
             r += 1
             l = r
         return s
