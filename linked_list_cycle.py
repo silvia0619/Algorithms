@@ -1,4 +1,9 @@
 # 141. Linked List Cycle
+# 답지 봤는데 이게 왜 되는지 모르겠음
+
+# 3 -> 2 -> 0 -> 4 -> 2 -> 0 -> 4 -> 2 -> 0 -> 4 -> ...
+# slow: 3 / 2 / 0 / 4 / 2 / 0 / 4 / 2 / 0 / 4 ...
+# fast: 2 / 4 / 0 / 2 / 4 / 0 / ...
 
 # Definition for singly-linked list.
 # class ListNode(object):
